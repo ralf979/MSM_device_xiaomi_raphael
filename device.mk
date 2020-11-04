@@ -63,6 +63,10 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libvulkan
+    
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
