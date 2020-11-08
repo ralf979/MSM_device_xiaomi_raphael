@@ -33,3 +33,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="raphael"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xtended.maintainer=Ralf979
+    
+XTENDED_BUILD_TYPE=OFFICIAL
