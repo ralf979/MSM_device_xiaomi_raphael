@@ -176,7 +176,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    XiaomiCustomDoze
+    CustomDoze
 
 # Enable blurs, hidden under dev option
 PRODUCT_PRODUCT_PROPERTIES += \
