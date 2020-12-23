@@ -22,6 +22,9 @@ SELINUX_IGNORE_NEVERALLOWS=true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.xtended.maintainer=Ralf979
 
+# FOD
+EXTRA_FOD_ANIMATIONS=true
+
 BUILD_FINGERPRINT := "Xiaomi/raphaelin/raphaelin:9/PKQ1.181121.001/V10.3.3.0.PFKINXM:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
