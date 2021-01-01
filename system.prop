@@ -1,3 +1,6 @@
+# SurfaceFlinger brightness tweak
+ro.sf.force_light_brightness=1
+
 # Bluetooth
 persist.bt.enableAptXHD=true
 persist.service.btui.use_aptx=1
