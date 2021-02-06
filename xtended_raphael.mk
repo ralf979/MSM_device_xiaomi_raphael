@@ -18,4 +18,10 @@ PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := xtended_raphael
 
+XTENDED_BUILD_TYPE=OFFICIAL
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xtended.maintainer=Ralf979
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
