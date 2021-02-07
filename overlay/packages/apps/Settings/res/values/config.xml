@@ -21,9 +21,6 @@
     -->
     <integer name="config_fingerprintSensorLocation">1</integer>
 
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
-
     <!-- Whether or not the device is capable of multiple levels of vibration intensity.
          Note that this is different from whether it can control the vibration amplitude as some
          devices will be able to vary their amplitude but do not possess enough dynamic range to
@@ -38,4 +35,12 @@
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
     <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage">com.custom.ambient.display/com.custom.ambient.display.DozeSettings</string>
+
+    <!-- Whether to enable doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
+
+   <!-- Whether device supports an alt. ambient display -->
+   <bool name="config_alt_ambient_display">true</bool>
 </resources>
